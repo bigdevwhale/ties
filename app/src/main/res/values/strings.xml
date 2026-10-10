@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ties</string>
+
+    <string name="channel_name">Reminders to reach out</string>
+    <string name="channel_desc">A gentle daily nudge when it is time to get in touch with someone</string>
+    <string name="notif_due_title">Time to reach out</string>
+    <string name="notif_due_text">It has been a while: %s</string>
+    <string name="notif_birthday_title">Birthday today: %s</string>
+    <string name="notif_birthday_text">A perfect reason to call.</string>
+    <plurals name="and_more">
+        <item quantity="one">" and %d more"</item>
+        <item quantity="other">" and %d more"</item>
+    </plurals>
+
+    <string name="circle_family">Family</string>
+    <string name="circle_friends">Friends</string>
+    <string name="circle_childhood">Childhood</string>
+    <string name="circle_work">Work &amp; study</string>
+    <string name="circle_other">Other</string>
+
+    <string name="kind_call">Call</string>
+    <string name="kind_message">Message</string>
+    <string name="kind_meeting">Met up</string>
+
+    <string name="freq_week">Every week</string>
+    <string name="freq_2weeks">Every 2 weeks</string>
+    <string name="freq_month">Every month</string>
+    <string name="freq_2months">Every 2 months</string>
+    <string name="freq_3months">Every 3 months</string>
+    <string name="freq_halfyear">Every 6 months</string>
+    <plurals name="freq_days">
+        <item quantity="one">Every %d day</item>
+        <item quantity="other">Every %d days</item>
+    </plurals>
+
+    <string name="ago_today">today</string>
+    <string name="ago_yesterday">yesterday</string>
+    <plurals name="ago_days">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+    <plurals name="ago_weeks">
+        <item quantity="one">%d week ago</item>
+        <item quantity="other">%d weeks ago</item>
+    </plurals>
+    <plurals name="ago_months">
+        <item quantity="one">%d month ago</item>
+        <item quantity="other">%d months ago</item>
+    </plurals>
+    <string name="ago_year_plus">over a year ago</string>
+    <string name="last_never">No contact logged yet</string>
+    <string name="last_touch">Talked %s</string>
+
+    <plurals name="status_overdue">
+        <item quantity="one">time to reach out · %d day late</item>
+        <item quantity="other">time to reach out · %d days late</item>
+    </plurals>
+    <string name="status_overdue_long">time to reach out</string>
+    <string name="status_due">reach out today</string>
+    <plurals name="status_soon">
+        <item quantity="one">due in %d day</item>
+        <item quantity="other">due in %d days</item>
+    </plurals>
+    <string name="status_ok">all good</string>
+
+    <string name="bday_today">today!</string>
+    <string name="bday_tomorrow">tomorrow</string>
+    <plurals name="bday_in">
+        <item quantity="one">in %d day</item>
+        <item quantity="other">in %d days</item>
+    </plurals>
+
+    <string name="log_title">You talked to %s</string>
+    <string name="log_note_hint">What did you talk about? (optional)</string>
+    <string name="log_save">Save</string>
+    <string name="log_saved">Noted. Nice!</string>
+    <string name="no_app">No app found for this action</string>
+
+    <string name="ask_title">Did you reach %s?</string>
+    <string name="ask_text">Mark the call so the countdown starts over.</string>
+    <string name="ask_yes">Yes, mark it</string>
+    <string name="ask_no">Not this time</string>
+
+    <string name="add_person">Add</string>
+    <string name="add_first">Add a person</string>
+    <string name="home_sub_empty">Keep the people who matter close.</string>
+    <string name="home_sub_fine">You are in touch with everyone. Keep it up.</string>
+    <plurals name="home_waiting">
+        <item quantity="one">%d person is waiting to hear from you</item>
+        <item quantity="other">%d people are waiting to hear from you</item>
+    </plurals>
+    <string name="section_birthdays">Upcoming birthdays</string>
+    <string name="section_waiting">Time to reach out</string>
+    <string name="section_soon">Coming up</string>
+    <string name="section_fine">All good</string>
+    <string name="empty_title">Who would you hate to drift apart from?</string>
+    <string name="empty_text">Friendships rarely end in a fight. They fade quietly: university, a new job, a move, and suddenly a year has passed without a call.\n\nAdd your parents, grandparents, a childhood friend, an old classmate. Start with three people. Ties will gently remind you when it is time to call.</string>
+
+    <string name="action_call">Call</string>
+    <string name="action_write">Write</string>
+    <string name="action_log">We talked</string>
+    <string name="back">Back</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="settings">Settings</string>
+
+    <string name="notes_title">Worth remembering</string>
+    <string name="history_title">History</string>
+    <string name="history_empty">Nothing yet. Log your first conversation.</string>
+    <string name="starter_title">What to talk about</string>
+    <string name="starter_next">Another idea</string>
+    <string-array name="starters">
+        <item>Ask how studies or work are going, and really listen.</item>
+        <item>Bring up a shared memory: “Today I remembered how we…”</item>
+        <item>Send a photo or a song that reminded you of them.</item>
+        <item>Ask for their advice. People love to feel their opinion matters.</item>
+        <item>Just say you miss them. That is enough.</item>
+        <item>Suggest a 10-minute call this weekend.</item>
+        <item>Ask how their week went and tell them about yours.</item>
+        <item>Suggest meeting up next time you are in the same city.</item>
+        <item>Congratulate them on something small: an exam, a new job, a move.</item>
+        <item>Ask about mutual friends: who have they seen lately?</item>
+        <item>Write for no reason. You are the reason.</item>
+        <item>Ask if there is anything you can help with.</item>
+    </string-array>
+
+    <string name="edit_new_title">New person</string>
+    <string name="edit_title">Edit</string>
+    <string name="pick_contact">Pick from contacts</string>
+    <string name="field_name">Name</string>
+    <string name="field_phone">Phone (optional)</string>
+    <string name="field_circle">Who they are</string>
+    <string name="field_every">How often you want to talk</string>
+    <string name="field_since">When did you last talk?</string>
+    <string name="since_recent">Recently</string>
+    <string name="since_month">About a month ago</string>
+    <string name="since_half_year">Half a year ago</string>
+    <string name="since_long">A year or more</string>
+    <string name="field_birthday">Birthday</string>
+    <string name="birthday_set">Set date</string>
+    <string name="birthday_clear">Clear</string>
+    <string name="birthday_year_hint">The year doesn\'t matter</string>
+    <string name="field_notes">Worth remembering</string>
+    <string name="notes_hint">Studies medicine in Kazan, loves football, sister\'s name is Lena…</string>
+    <string name="delete_person">Remove from the list</string>
+    <string name="delete_confirm_title">Remove %s?</string>
+    <string name="delete_confirm_text">The conversation history will be deleted too.</string>
+
+    <string name="perm_title">Notifications are off</string>
+    <string name="perm_text">Tap to allow them, otherwise Ties can\'t remind you.</string>
+    <string name="reminders">Reminders</string>
+    <string name="reminder_daily">Daily nudge</string>
+    <string name="reminder_daily_text">Only when someone is due or has a birthday. Overdue people are repeated every 3 days, not daily.</string>
+    <string name="reminder_time">Time</string>
+    <string name="autostart_title">Reminders not arriving?</string>
+    <string name="autostart_text">On Xiaomi, Huawei and some other phones, allow autostart and disable battery restrictions for Ties.</string>
+    <string name="language">Language</string>
+    <string name="lang_system">System</string>
+    <string name="about">About</string>
+    <string name="about_text">People rarely lose each other on purpose. Life just gets busy. Ties keeps the people you care about in sight so that a “we should catch up sometime” turns into an actual call.\n\nEverything stays on your phone.</string>
+</resources>

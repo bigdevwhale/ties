@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Связи</string>
+
+    <string name="channel_name">Напоминания о близких</string>
+    <string name="channel_desc">Мягкое ежедневное напоминание, когда пора кому-то позвонить или написать</string>
+    <string name="notif_due_title">Пора напомнить о себе</string>
+    <string name="notif_due_text">Давно не общались: %s</string>
+    <string name="notif_birthday_title">Сегодня день рождения: %s</string>
+    <string name="notif_birthday_text">Отличный повод позвонить.</string>
+    <plurals name="and_more">
+        <item quantity="one">" и ещё %d"</item>
+        <item quantity="few">" и ещё %d"</item>
+        <item quantity="many">" и ещё %d"</item>
+        <item quantity="other">" и ещё %d"</item>
+    </plurals>
+
+    <string name="circle_family">Семья</string>
+    <string name="circle_friends">Друзья</string>
+    <string name="circle_childhood">Друзья детства</string>
+    <string name="circle_work">Учёба и работа</string>
+    <string name="circle_other">Другое</string>
+
+    <string name="kind_call">Звонок</string>
+    <string name="kind_message">Переписка</string>
+    <string name="kind_meeting">Встреча</string>
+
+    <string name="freq_week">Раз в неделю</string>
+    <string name="freq_2weeks">Раз в 2 недели</string>
+    <string name="freq_month">Раз в месяц</string>
+    <string name="freq_2months">Раз в 2 месяца</string>
+    <string name="freq_3months">Раз в 3 месяца</string>
+    <string name="freq_halfyear">Раз в полгода</string>
+    <plurals name="freq_days">
+        <item quantity="one">Раз в %d день</item>
+        <item quantity="few">Раз в %d дня</item>
+        <item quantity="many">Раз в %d дней</item>
+        <item quantity="other">Раз в %d дня</item>
+    </plurals>
+
+    <string name="ago_today">сегодня</string>
+    <string name="ago_yesterday">вчера</string>
+    <plurals name="ago_days">
+        <item quantity="one">%d день назад</item>
+        <item quantity="few">%d дня назад</item>
+        <item quantity="many">%d дней назад</item>
+        <item quantity="other">%d дня назад</item>
+    </plurals>
+    <plurals name="ago_weeks">
+        <item quantity="one">%d неделю назад</item>
+        <item quantity="few">%d недели назад</item>
+        <item quantity="many">%d недель назад</item>
+        <item quantity="other">%d недели назад</item>
+    </plurals>
+    <plurals name="ago_months">
+        <item quantity="one">%d месяц назад</item>
+        <item quantity="few">%d месяца назад</item>
+        <item quantity="many">%d месяцев назад</item>
+        <item quantity="other">%d месяца назад</item>
+    </plurals>
+    <string name="ago_year_plus">больше года назад</string>
+    <string name="last_never">Пока ничего не отмечено</string>
+    <string name="last_touch">Общались %s</string>
+
+    <plurals name="status_overdue">
+        <item quantity="one">пора связаться · уже %d день</item>
+        <item quantity="few">пора связаться · уже %d дня</item>
+        <item quantity="many">пора связаться · уже %d дней</item>
+        <item quantity="other">пора связаться · уже %d дня</item>
+    </plurals>
+    <string name="status_overdue_long">пора связаться</string>
+    <string name="status_due">пора связаться сегодня</string>
+    <plurals name="status_soon">
+        <item quantity="one">через %d день</item>
+        <item quantity="few">через %d дня</item>
+        <item quantity="many">через %d дней</item>
+        <item quantity="other">через %d дня</item>
+    </plurals>
+    <string name="status_ok">всё хорошо</string>
+
+    <string name="bday_today">сегодня!</string>
+    <string name="bday_tomorrow">завтра</string>
+    <plurals name="bday_in">
+        <item quantity="one">через %d день</item>
+        <item quantity="few">через %d дня</item>
+        <item quantity="many">через %d дней</item>
+        <item quantity="other">через %d дня</item>
+    </plurals>
+
+    <string name="log_title">Вы пообщались: %s</string>
+    <string name="log_note_hint">О чём говорили? (необязательно)</string>
+    <string name="log_save">Сохранить</string>
+    <string name="log_saved">Отмечено. Так держать!</string>
+    <string name="no_app">Не нашлось приложения для этого действия</string>
+
+    <string name="ask_title">Удалось поговорить: %s?</string>
+    <string name="ask_text">Отметь звонок, и отсчёт начнётся заново.</string>
+    <string name="ask_yes">Да, отметить</string>
+    <string name="ask_no">Не в этот раз</string>
+
+    <string name="add_person">Добавить</string>
+    <string name="add_first">Добавить человека</string>
+    <string name="home_sub_empty">Не теряй тех, кто тебе дорог.</string>
+    <string name="home_sub_fine">Ты на связи со всеми. Так держать.</string>
+    <plurals name="home_waiting">
+        <item quantity="one">%d человек ждёт весточки</item>
+        <item quantity="few">%d человека ждут весточки</item>
+        <item quantity="many">%d человек ждут весточки</item>
+        <item quantity="other">%d человека ждут весточки</item>
+    </plurals>
+    <string name="section_birthdays">Скоро дни рождения</string>
+    <string name="section_waiting">Пора связаться</string>
+    <string name="section_soon">Скоро</string>
+    <string name="section_fine">Всё хорошо</string>
+    <string name="empty_title">С кем ты не хочешь потеряться?</string>
+    <string name="empty_text">Дружба редко заканчивается ссорой. Она тихо угасает: вуз, работа, переезд, и вдруг прошёл год без единого звонка.\n\nДобавь родителей, бабушку, друга детства, одноклассника. Начни с трёх человек. «Связи» мягко напомнят, когда пора позвонить.</string>
+
+    <string name="action_call">Позвонить</string>
+    <string name="action_write">Написать</string>
+    <string name="action_log">Связались</string>
+    <string name="back">Назад</string>
+    <string name="edit">Изменить</string>
+    <string name="delete">Удалить</string>
+    <string name="save">Сохранить</string>
+    <string name="ok">ОК</string>
+    <string name="cancel">Отмена</string>
+    <string name="settings">Настройки</string>
+
+    <string name="notes_title">Что важно помнить</string>
+    <string name="history_title">История</string>
+    <string name="history_empty">Пока пусто. Отметь первый разговор.</string>
+    <string name="starter_title">О чём поговорить</string>
+    <string name="starter_next">Другая идея</string>
+    <string-array name="starters">
+        <item>Спроси, как дела на учёбе или работе, и правда выслушай.</item>
+        <item>Вспомни общую историю: «Сегодня вспомнил(а), как мы…»</item>
+        <item>Отправь фото или песню, которая напомнила об этом человеке.</item>
+        <item>Попроси совета. Людям приятно, когда их мнение важно.</item>
+        <item>Просто скажи, что скучаешь. Этого достаточно.</item>
+        <item>Предложи созвониться на 10 минут в выходные.</item>
+        <item>Спроси, как прошла неделя, и расскажи про свою.</item>
+        <item>Предложи встретиться, когда окажетесь в одном городе.</item>
+        <item>Поздравь с чем-то небольшим: сданным экзаменом, новой работой, переездом.</item>
+        <item>Спроси про общих знакомых: кого он(а) видел(а) в последнее время?</item>
+        <item>Напиши без повода. Повод — это ты.</item>
+        <item>Спроси, можешь ли ты чем-то помочь.</item>
+    </string-array>
+
+    <string name="edit_new_title">Новый человек</string>
+    <string name="edit_title">Редактирование</string>
+    <string name="pick_contact">Выбрать из контактов</string>
+    <string name="field_name">Имя</string>
+    <string name="field_phone">Телефон (необязательно)</string>
+    <string name="field_circle">Кто это</string>
+    <string name="field_every">Как часто хочешь общаться</string>
+    <string name="field_since">Когда общались в последний раз?</string>
+    <string name="since_recent">Недавно</string>
+    <string name="since_month">Около месяца назад</string>
+    <string name="since_half_year">Полгода назад</string>
+    <string name="since_long">Год и больше</string>
+    <string name="field_birthday">День рождения</string>
+    <string name="birthday_set">Указать дату</string>
+    <string name="birthday_clear">Убрать</string>
+    <string name="birthday_year_hint">Год не важен</string>
+    <string name="field_notes">Что важно помнить</string>
+    <string name="notes_hint">Учится в Казани на врача, любит футбол, сестру зовут Лена…</string>
+    <string name="delete_person">Убрать из списка</string>
+    <string name="delete_confirm_title">Удалить: %s?</string>
+    <string name="delete_confirm_text">История общения тоже будет удалена.</string>
+
+    <string name="perm_title">Уведомления выключены</string>
+    <string name="perm_text">Нажми, чтобы разрешить, иначе «Связи» не смогут напомнить.</string>
+    <string name="reminders">Напоминания</string>
+    <string name="reminder_daily">Ежедневное напоминание</string>
+    <string name="reminder_daily_text">Только если кому-то пора позвонить или у кого-то день рождения. О пропущенных напоминаем раз в 3 дня, а не каждый день.</string>
+    <string name="reminder_time">Время</string>
+    <string name="autostart_title">Напоминания не приходят?</string>
+    <string name="autostart_text">На Xiaomi, Huawei и некоторых других телефонах разреши автозапуск и сними ограничения батареи для «Связей».</string>
+    <string name="language">Язык</string>
+    <string name="lang_system">Системный</string>
+    <string name="about">О приложении</string>
+    <string name="about_text">Люди редко теряют друг друга нарочно. Просто жизнь затягивает. «Связи» держат дорогих тебе людей на виду, чтобы «надо бы как-нибудь созвониться» превращалось в настоящий звонок.\n\nВсе данные хранятся только на твоём телефоне.</string>
+</resources>
