@@ -54,6 +54,7 @@ import app.ties.data.ReminderConfig
 import app.ties.reminders.Reminders
 import app.ties.ui.Language
 import app.ties.ui.components.Chip
+import app.ties.ui.components.CommunityLinks
 import app.ties.ui.components.SectionTitle
 import app.ties.ui.components.TiesCard
 import app.ties.ui.theme.Ties
@@ -139,6 +140,8 @@ fun SettingsScreen(onBack: () -> Unit) {
                 Chip("English", current == Language.EN, { Language.set(Language.EN) })
                 Chip("Русский", current == Language.RU, { Language.set(Language.RU) })
             }
+
+            CommunityLinks()
 
             SectionTitle(stringResource(R.string.about))
             TiesCard { Text(stringResource(R.string.about_text), style = TiesType.Sub) }
