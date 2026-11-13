@@ -6,6 +6,15 @@ line "<!-- tg", then 2-4 short lines in Russian for users (what is new, what is 
 then close it like any HTML comment. The release notes carry it, and the chat bot posts those lines.
 -->
 
+## [1.1.0] - 2026-11-13
+
+### Added
+- Two shorter rhythms for the people you want to hear from often: "Every day" and "Every 3 days" (#1). Right after a call a daily contact reads settled, not "soon".
+
+<!-- tg
+Новое: в «Связях» можно выбрать «Каждый день» и «Раз в 3 дня» – для тех, кого хочется слышать часто.
+-->
+
 ## [1.0.1] - 2026-10-25
 
 ### Added

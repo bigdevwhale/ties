@@ -39,6 +39,7 @@ fun kindLabel(k: TouchKind): String = stringResource(
 
 @Composable
 fun frequencyLabel(days: Int): String = when (days) {
+    1 -> stringResource(R.string.freq_day)
     7 -> stringResource(R.string.freq_week)
     14 -> stringResource(R.string.freq_2weeks)
     30 -> stringResource(R.string.freq_month)

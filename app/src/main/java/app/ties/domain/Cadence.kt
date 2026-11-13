@@ -13,7 +13,7 @@ enum class Status { OVERDUE, DUE, SOON, OK }
 
 /** Pure rules for "how long since we talked and is it time again". */
 object Cadence {
-    val Frequencies = listOf(7, 14, 30, 60, 90, 180)
+    val Frequencies = listOf(1, 3, 7, 14, 30, 60, 90, 180)
 
     /** While someone stays overdue, nudge again every this many days instead of daily. */
     const val NUDGE_EVERY = 3
@@ -41,7 +41,8 @@ object Cadence {
     fun daysSince(millis: Long, today: LocalDate, zone: ZoneId = ZoneId.systemDefault()): Long =
         ChronoUnit.DAYS.between(toDate(millis, zone), today)
 
-    fun soonWindow(everyDays: Int): Int = (everyDays / 5).coerceIn(1, 14)
+    /** Days before the due day that count as soon; none for a daily contact, or it would never look settled. */
+    fun soonWindow(everyDays: Int): Int = if (everyDays < 3) 0 else (everyDays / 5).coerceIn(1, 14)
 
     fun status(daysLeft: Long, everyDays: Int): Status = when {
         daysLeft < 0 -> Status.OVERDUE

@@ -23,6 +23,7 @@
     <string name="kind_message">Message</string>
     <string name="kind_meeting">Met up</string>
 
+    <string name="freq_day">Every day</string>
     <string name="freq_week">Every week</string>
     <string name="freq_2weeks">Every 2 weeks</string>
     <string name="freq_month">Every month</string>

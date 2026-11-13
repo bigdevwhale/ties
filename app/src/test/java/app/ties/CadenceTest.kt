@@ -62,4 +62,13 @@ class CadenceTest {
         val evening = LocalDateTime.of(2026, 10, 10, 19, 0)
         assertEquals(LocalDateTime.of(2026, 10, 11, 19, 0), Cadence.nextReminder(evening, 19 * 60))
     }
+    /** Every day and every 3 days (#1): right after a contact it reads settled, and it is due on time. */
+    @Test
+    fun shortCadences() {
+        assertEquals(Status.OK, Cadence.status(1, 1))
+        assertEquals(Status.DUE, Cadence.status(0, 1))
+        assertEquals(Status.OK, Cadence.status(2, 3))
+        assertEquals(Status.SOON, Cadence.status(1, 3))
+        assertEquals(Status.OVERDUE, Cadence.status(-1, 3))
+    }
 }
